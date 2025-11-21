@@ -1,5 +1,5 @@
 ---
-title: Jacob Rider - Cybersecurity Portfolio
+title: Jacob Rider - Cybersecurity Portfolios
 ---
 
 ## About Me
