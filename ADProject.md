@@ -1,6 +1,8 @@
 # Active Directory Project
 
-[SOAR Project](./SOARProject.md)           [Return to Home](./index.md)
+[SOAR Project](./SOARProject.md)           
+
+[Return to Home](./index.md)
 
 In this project, I used Virtual Box to setup an AD environment inside a Windows Server 2022 VM, Configured a target Windows 10 machine and Kali Linux VM, and a Splunk instance for ingesting events and analyzing telemetry. The initial draw up is depicted below:
 ![Branching](ADProjectDiagram.png)
@@ -24,4 +26,6 @@ Now that we have all the pieces in place, we can finally begin launching attacks
 
 As you can see at the very top, the event code for this specific alert was 4625, which indicates a failed log in attempt to tsmith's account, since I did not include their password in the passwords.txt file. Now that we can officially see the telemetry of the attack, I can now launch different attacks on the target machine and see how splunk detects the attack and how the target machine reacts! There was a lot more behind the scenes to this lab, however that was mostly setting up the vm's. I mainly wanted to show experience with VM and splunk configuration, as well as some red team experience with Kali Linux.
 
-[SOAR Project](./SOARProject.md)           [Return to Home](./index.md)
+[SOAR Project](./SOARProject.md)           
+
+[Return to Home](./index.md)
