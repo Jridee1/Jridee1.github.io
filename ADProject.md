@@ -1,7 +1,5 @@
 
 
-# Active Directory Project
-
 [SOAR Project](./SOARProject.md)           
 
 [Return to Home](./index.md)
