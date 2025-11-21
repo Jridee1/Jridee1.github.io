@@ -1,4 +1,6 @@
-
+---
+title: Jacob Rider - Cybersecurity Portfolio
+---
 
 ## About Me
 
