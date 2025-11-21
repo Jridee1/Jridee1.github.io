@@ -4,9 +4,13 @@ I created this to show future employers skills I have acquired in my own time. I
 
 # Socials
 
+[LinkedIn](https://www.linkedin.com/in/jacob-rider-419945180/)
 
+[GitHub](https://github.com/Jridee1)
 
-[SOAR Project](./SOARProject.md).
+# Projects
 
-[AD Project](./ADProject.md).
+[SOAR Project](./SOARProject.md)
+
+[AD Project](./ADProject.md)
 
