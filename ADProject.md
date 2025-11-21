@@ -20,7 +20,13 @@ To put on the finishing touches before we can begin attacking the target machine
 
 ![Branching](ADscreenshot.png)
 
-Now that we have all the pieces in place, we can finally begin launching attacks on the Windows 10 target machine. There are many brute force tools you can use, I decided to use hydra with this command: hydra -l tsmith -P passwords.txt rdp://192.168.10.100/32, indicating we want to brute force attempt via RDP to account jsmith using passwords listed in the passwords.txt file.
+Now that we have all the pieces in place, we can finally begin launching attacks on the Windows 10 target machine. There are many brute force tools you can use, I decided to use Hydra indicating we want to brute force attempt via RDP to account jsmith using passwords listed in the passwords.txt file:
+}
+
+```
+{
+  hydra -l tsmith -P passwords.txt rdp://192.168.10.100/32
+```
 
 ![Branching](Splunkresults.png)
 
