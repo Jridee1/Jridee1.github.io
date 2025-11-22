@@ -8,9 +8,9 @@ For this project, I wanted to create a playbook that will send a Slack message a
 
 ![Branching](SOARDrawup.png)
 
-Using Vultr, a VM cloud provider, I configured a Windows VM. As I waited for that to build, I would need to create an installation key and the sensor key in order to install LimaCharlie on the Windows VM. After the VM is built, I'll head over there and use the following Powershell command in the downloads directory (Replace executable file and installation key with their respective components):
+Using Vultr, a VM cloud provider, I configured a Windows VM. As I waited for that to build, I would need to create an installation key and the sensor key in order to install LimaCharlie on the Windows VM. After the VM is built, I'll head over to it and use the following Powershell command in the downloads directory to install LimaCharlie (Replace executable file and installation key with their respective components):
 
 ```
   (executable file) -i (installation key)
 ```
-
+![Branching](LimaCharlieSuccess.png))
