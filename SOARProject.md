@@ -42,3 +42,8 @@ That comes out to look like this:
 Within the response rule you'll see the action "report" this just means that if a certain event meets the criteria for the detection, an event will be generated in the detection tab in LimaCharlie:
 ![Branching](Responserule.png)
 
+Now lets see if the rules we created works. To do this, we'll use the command 
+```
+  .\LaZagne.exe all
+```
+And we see detections with the rule we created in LimaCharlie!:
