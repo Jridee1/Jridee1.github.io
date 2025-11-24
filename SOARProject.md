@@ -23,4 +23,5 @@ In order for LimaCharlie to detect a hacktool, we need to download Lazagne from 
 ![Branching](Lazagne.png)
 ![Branching](SOAR-Project.png)
 
+The Arrows in the screenshot above indicate some important information we can use to create the detection and response rules within LimaCharlie. 
 
