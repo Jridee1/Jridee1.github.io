@@ -16,9 +16,11 @@ Using Vultr, a VM cloud provider, I configured a Windows VM. As I waited for tha
 ![Branching](LimaCharlieSuccess.png)
 ![Branching](LimaCharlieSuccess1.png)
 
-In order for LimaCharlie to detect a hacktool, we need to download Lazagne from the Lazagne Project on their GitHub. Lazagne is an open source application that retrieves passwords stored on a local computer. We verify that its downloaded with Powershell:
+In order for LimaCharlie to detect a hacktool, we need to download Lazagne from the Lazagne Project on their GitHub. Lazagne is an open source application that retrieves passwords stored on a local computer. We verify that its downloaded with Powershell and LimaCharlie:
 ```
   .\LaZagne.exe
 ```
 ![Branching](Lazagne.png)
+![Branching](SOAR-Project.png)
+
 
