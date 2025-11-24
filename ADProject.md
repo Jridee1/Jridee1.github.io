@@ -7,18 +7,21 @@ title: Jacob Rider - Cybersecurity Portfolio
 In this project, I used Virtual Box to setup an AD environment inside a Windows Server 2022 VM, Configured a target Windows 10 machine and Kali Linux VM, and a Splunk instance for ingesting events and analyzing telemetry. The initial draw up is depicted below:
 ![Branching](ADProjectDiagram.png)
 
+## Tools setup
+
 After setting up a NAT network in Virtual Box so my vm's could communicate with each other/access the internet, I configured a static IP address for the Splunk server:
 ![Branching](Splunkserver.png)
 
 Once I installed sysmon and Splunk Universal Forwarder on the Windows 10 target VM and Windows Server 2022 AD VM, it was time to create an inputs.conf file in the local directory of the Universal Forwarder to send Application, Security, System and Sysmon logs to the Splunk server, pointing to the index "endpoint" as well as creating an endpoint index within Splunk and configuring a receving point, which is 9997 by default: 
 
 ![Branching](input.conf_screenshot.png)
-
 ![Branching](Splunkscreenshot.png)
 
 To put on the finishing touches before we can begin attacking the target machine, I installed Active Directory Domain Services on the Windows Server 2022 VM, promoted the server to a DC, created a new forest with domain name "ADPROJECT", created some OU's like IT and HR along with some user accounts Jerry Smith and Terry Smith, then finally joining the Windows 10 target machine to the AD domain
 
 ![Branching](ADscreenshot.png)
+
+## Attack
 
 Now that we have all the pieces in place, we can finally begin launching attacks on the Windows 10 target machine. There are many brute force tools you can use, I decided to use Hydra indicating we want to brute force attempt via RDP to account tsmith using passwords listed in the passwords.txt file:
 
