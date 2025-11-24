@@ -47,3 +47,6 @@ Now lets see if the rules we created works. To do this, we'll use the command
   .\LaZagne.exe all
 ```
 And we see detections with the rule we created in LimaCharlie!:
+![Branching](DetectionsSuccess.png)
+
+## Slack and Tines setup
