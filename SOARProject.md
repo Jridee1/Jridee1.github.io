@@ -36,10 +36,12 @@ The Detect rule's logic is as follows:
 * OR hash == lazagne hash
 
 That comes out to look like this:
+
 ![Branching](Detectrule.png)
 
 ## Response Rule
 Within the response rule you'll see the action "report" this just means that if a certain event meets the criteria for the detection, an event will be generated in the detection tab in LimaCharlie:
+
 ![Branching](Responserule.png)
 
 Now lets see if the rules we created works. To do this, we'll use the command 
@@ -47,11 +49,13 @@ Now lets see if the rules we created works. To do this, we'll use the command
   .\LaZagne.exe all
 ```
 And we see detections with the rule we created in LimaCharlie!:
+
 ![Branching](DetectionsSuccess.png)
 
 ## Slack and Tines setup
 
 Slack is very straightforward to setup, just creating a free account and creating a new channel called "alerts". Tines is where a majority of the setup work is going. First we will need to link our Tines story to LimaCharlie. This is done in LimaCharlie by going to Outputs > Add Output > Detections > Tines. When it asks for our Destination Host, we will link the url from the webhook in the picture below.
+
 ![Branching](TinesStory2.png)
 
 Now lets use that same command we used above to generate another detection to see if we get it in our Tines story:
