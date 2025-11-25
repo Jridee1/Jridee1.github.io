@@ -51,5 +51,14 @@ And we see detections with the rule we created in LimaCharlie!:
 
 ## Slack and Tines setup
 
-Slack is very straightforward to setup, just creating a free account and creating a new channel called "alerts". Tines is where a majority of the setup work is going. This is what the setup will look like at the beginning just to see if we can get a detection from LimaCharlie into our Tines story:
+Slack is very straightforward to setup, just creating a free account and creating a new channel called "alerts". Tines is where a majority of the setup work is going. First we will need to link our Tines story to LimaCharlie. This is done in LimaCharlie by going to Outputs > Add Output > Detections > Tines. When it asks for our Destination Host, we will link the url from the webhook in the picture below.
+![Branching](TinesStory2.png)
 
+Now lets use that same command we used above to generate another detection to see if we get it in our Tines story:
+```
+  .\LaZagne.exe all
+```
+
+![Branching](TinesStory1.png)
+
+We have now successfully linked LimaCharlie to our Tines story!
