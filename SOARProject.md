@@ -105,7 +105,18 @@ First, we will say no, we do NOT want to isolate the machine. This will result i
 
 ![Branching](Slackmessage2.png)
 
-If we instead say yes, there is some more configurations we will have to do. First and luckily, there is a LimaCharlie template in Tines where we can select the "Isolate Sensor" which will use the Sensor ID or SID. In order for the machine to actually be Isolated from our Tines story, we will need to retrieve the API from LimaCharlie, which inside of LimaCharlie can be found in Access Management > REST API > and its the Org JWT we want. Then, we want to create a new, custom credential in Tines. That can be done by clicking "Personal" at the top left of Tines, then click "Credentials". From here, just click "New Credential", name it LimaCharlie, and paste in the Org JWT in the "Value" Section and under domains, we want it to be "*.limacharlie.io" and save it. Back to the Tines story, if you click on a blank space within the story, click connect next to the credential we just created
+If we instead say yes, there is some more configurations we will have to do. First and luckily, there is a LimaCharlie template in Tines where we can select the "Isolate Sensor" which will use the Sensor ID or SID from the info we retrieved from detections. In order for the machine to actually be Isolated from our Tines story, we will need to retrieve the API from LimaCharlie, which inside of LimaCharlie can be found in Access Management > REST API > and its the Org JWT we want. Then, we want to create a new, custom credential in Tines. That can be done by clicking "Personal" at the top left of Tines, then click "Credentials". From here, just click "New Credential", name it LimaCharlie, and paste in the Org JWT in the "Value" Section and under domains, we want it to be "*.limacharlie.io" and save it. Back to the Tines story, if you click on a blank space within the story, click connect next to the credential we just created:
+
+![Branching](Credentials.png)
+
+Now, if you run Lazagne.exe again in the VM, and click yes when we are prompted to isolate, we should see this is LimaCharlie!:
+
+
+
+
+
+
+
 
 
 
