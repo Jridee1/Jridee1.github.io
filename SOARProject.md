@@ -74,3 +74,14 @@ Below is the complete story on Tines. I will break it down section by section:
 ![Branching](Final.png)
 
 ### Send Email
+
+For the email portion, I retrieved some info on the detections and configured the email to have the following info
+* Time
+* Computer
+* Source IP
+* Username
+* File Path
+* Command Line
+* Sensor ID
+* Detection Link
+
