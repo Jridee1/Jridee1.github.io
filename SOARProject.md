@@ -105,6 +105,8 @@ First, we will say no, we do NOT want to isolate the machine. This will result i
 
 ![Branching](Slackmessage2.png)
 
+### HTTP Requests
+
 If we instead say yes, there is some more configurations we will have to do. First and luckily, there is a LimaCharlie template in Tines where we can select the "Isolate Sensor" which will use the Sensor ID or SID from the info we retrieved from detections. In order for the machine to actually be Isolated from our Tines story, we will need to retrieve the API from LimaCharlie, which inside of LimaCharlie can be found in Access Management > REST API > and its the Org JWT we want. Then, we want to create a new, custom credential in Tines. That can be done by clicking "Personal" at the top left of Tines, then click "Credentials". From here, just click "New Credential", name it LimaCharlie, and paste in the Org JWT in the "Value" Section and under domains, we want it to be "*.limacharlie.io" and save it. Back to the Tines story, if you click on a blank space within the story, click connect next to the credential we just created:
 
 ![Branching](Credentials.png)
@@ -120,6 +122,8 @@ We can also ping from our vm to google to see if we get anything and we do not, 
 And finally, this is the message we receive in slack to indicate isolation status:
 
 ![Branching](Finalmessage.png)
+
+## Conclusion
 
 And with that, the project is complete. This was my first real experience with a SOAR tool and learned alot about the capabilities of a SOAR. These projects are also helping me to think more logically, as it helps a lot to write down or draw up what it is I want to complete in a project.
 
