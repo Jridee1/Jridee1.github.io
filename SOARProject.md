@@ -54,7 +54,7 @@ And we see detections with the rule we created in LimaCharlie!:
 
 ## Slack and Tines setup
 
-Slack is very straightforward to setup, just creating a free account and creating a new channel called "alerts". Tines is where a majority of the setup work is going. First we will need to link our Tines story to LimaCharlie. This is done in LimaCharlie by going to Outputs > Add Output > Detections > Tines. When it asks for our Destination Host, we will link the url from the webhook in the picture below.
+Slack is very straightforward to setup, just creating a free account, creating a new channel called "alerts" and linking our Slack credentials to the Tines story. Tines is where a majority of the setup work is going. First we will need to link our Tines story to LimaCharlie and our LimaCharlie credentials to Tines. This is done in LimaCharlie by going to Outputs > Add Output > Detections > Tines. When it asks for our Destination Host, we will link the url from the webhook in the picture below.
 
 ![Branching](TinesStory2.png)
 
@@ -97,7 +97,7 @@ All the slack messages in this story are essentially copy and pasted, with diffe
 
 ### User Prompt
 
-
+For the user prompt, we are sending the user some info and asking them if they want to isolate the machine
 
 
 
