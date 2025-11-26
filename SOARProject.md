@@ -109,11 +109,15 @@ If we instead say yes, there is some more configurations we will have to do. Fir
 
 ![Branching](Credentials.png)
 
-Now, if you run Lazagne.exe again in the VM, and click yes when we are prompted to isolate, we should see this is LimaCharlie!:
+Now, if you run Lazagne.exe again in the VM, and click yes when we are prompted to isolate, we should see this in LimaCharlie!:
 
 ![Branching](Isolated.png)
 
 We can also ping from our vm to google to see if we get anything and we do not, which means our machine is isolated!:
+
+![Branching](Ping.png)
+
+
 
 
 
