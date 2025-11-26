@@ -4,7 +4,7 @@ title: Jacob Rider - Cybersecurity Portfolio
 
 ## About Me
 
-I am a Cybersecurity professional with 2.5 years in the field, skilled in ticket and vulnerability management, analyzing security events, and showing proficiency in tools such as Crowdstrike Falcon, Splunk, and Wireshark
+I am a Cybersecurity professional with 2.5 years in the field, skilled in ticket and vulnerability management, analyzing security events, and showing proficiency in tools such as Crowdstrike Falcon, Splunk, and Wireshark. Recently I've expanded my skill set, implementing SOAR tools and understanding just how much more powerful they can make a security program. I continue to learn by the use of Tryhackme and hackthebox CTF's, where my adaptibility and critical thinking shine best.
 
 ## Socials
 
