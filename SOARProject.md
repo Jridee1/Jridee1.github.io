@@ -91,7 +91,15 @@ This is what it looks like in the Email:
 
 ### Slack message
 
-All the slack messages in this story are essentially copy and pasted, with differing messages for each. For the slack message before we go through the user prompt, we just want the same info as above sent to our slack console:
+All the slack messages in this story are essentially copy and pasted, with differing messages for each. For the Slack message before we go through the user prompt, we just want the same info as above sent to our Slack:
+
+![Branching](Slackmessage1.png)
+
+### User Prompt
+
+
+
+
 
 
 
