@@ -75,7 +75,7 @@ Below is the complete story on Tines. I will break it down section by section:
 
 ### Send Email
 
-For the email portion, I retrieved some info on the detections and configured the email to have the following info
+For the email portion, I retrieved some info on the detections and configured the email to have the following info:
 * Time
 * Computer
 * Source IP
@@ -84,4 +84,11 @@ For the email portion, I retrieved some info on the detections and configured th
 * Command Line
 * Sensor ID
 * Detection Link
+
+This is what it looks like in the Email:
+
+![Branching](Emailsuccess.png)
+
+
+
 
