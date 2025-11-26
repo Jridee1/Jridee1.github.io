@@ -101,6 +101,10 @@ For the user prompt, we are sending the user some info and asking them if they w
 
 ![Branching](Userprompt.png)
 
+First, we say no, we do NOT want to isolate the machine. This is the result and the end of the yes/no scenario:
+
+![Branching]()
+
 
 
 
