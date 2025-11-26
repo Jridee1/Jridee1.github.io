@@ -97,7 +97,11 @@ All the slack messages in this story are essentially copy and pasted, with diffe
 
 ### User Prompt
 
-For the user prompt, we are sending the user some info and asking them if they want to isolate the machine
+For the user prompt, we are sending the user some info and asking them if they want to isolate the machine:
+
+![Branching](Userprompt.png)
+
+
 
 
 
