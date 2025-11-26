@@ -14,7 +14,7 @@ I am a Cybersecurity professional with 2.5 years in the field, skilled in ticket
 
 ## Projects
 
-[SOAR Project(Work in progress)](./SOARProject.md)
+[SOAR Project](./SOARProject.md)
 
 [AD Project](./ADProject.md)
 
