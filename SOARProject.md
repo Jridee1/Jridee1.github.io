@@ -89,6 +89,13 @@ This is what it looks like in the Email:
 
 ![Branching](Emailsuccess.png)
 
+### Slack message
+
+All the slack messages in this story are essentially copy and pasted, with differing messages for each. For the slack message before we go through the user prompt, we just want the same info as above sent to our slack console:
+
+
+
+
 
 
 
