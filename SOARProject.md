@@ -123,6 +123,10 @@ And finally, this is the message we receive in slack to indicate isolation statu
 
 And with that, the project is complete. This was my first real experience with a SOAR tool and learned alot about the capabilities of a SOAR. These projects are also helping me to think more logically, as it helps a lot to write down or draw up what it is I want to complete in a project.
 
+[AD Project](./ADProject.md)           
+
+[Return to Home](./index.md)
+
 
 
 
