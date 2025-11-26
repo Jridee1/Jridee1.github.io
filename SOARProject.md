@@ -4,7 +4,7 @@ title: Jacob Rider - Cybersecurity Portfolio
 
 # SOAR Project
 
-For this project, I wanted to create a playbook within Tines, and AI orchestration platform, that will send a Slack message and an email with details about a detection from LimaCharlie. Next, I will prompt the user if they want to isolate the machine based off the details received. Finally, I would isolate the machine using LimeCharlie if the user agrees, or send a message indicating no isolation if they decline. I did my best to draw that up here:
+For this project, I wanted to create a playbook within Tines, and AI orchestration platform, that will send a Slack message and an email with details about a detection from LimaCharlie. Next, I will prompt the user if they want to isolate the machine based off the details received. Finally, I would isolate the machine using LimaCharlie if the user agrees, or send a message indicating no isolation if they decline. I did my best to draw that up here:
 
 ![Branching](SOARDrawup.png)
 
@@ -54,7 +54,7 @@ And we see detections with the rule we created in LimaCharlie!:
 
 ## Slack and Tines setup
 
-Slack is very straightforward to setup, just creating a free account, creating a new channel called "alerts" and linking our Slack credentials to the Tines story. Tines is where a majority of the setup work is going. First we will need to link our Tines story to LimaCharlie and our LimaCharlie credentials to Tines. This is done in LimaCharlie by going to Outputs > Add Output > Detections > Tines. When it asks for our Destination Host, we will link the url from the webhook in the picture below.
+Slack is very straightforward to setup, just creating a free account, creating a new channel called "alerts" and linking our Slack credentials to the Tines story. Tines is where a majority of the setup work is going. First we will need to link our Tines story to LimaCharlie. This is done in LimaCharlie by going to Outputs > Add Output > Detections > Tines. When it asks for our Destination Host, we will link the url from the webhook in the picture below.
 
 ![Branching](TinesStory2.png)
 
@@ -101,9 +101,17 @@ For the user prompt, we are sending the user some info and asking them if they w
 
 ![Branching](Userprompt.png)
 
-First, we say no, we do NOT want to isolate the machine. This is the result and the end of the yes/no scenario:
+First, we will say no, we do NOT want to isolate the machine. This will result in sending a slack message to our alerts channel:
 
-![Branching]()
+![Branching](Slackmessage2.png)
+
+If we instead say yes, there is some more configurations we will have to do. First and luckily, there is a LimaCharlie template in Tines where we can select the "Isolate Sensor" which will use the Sensor ID or SID. In order for the machine to actually be Isolated from our Tines story, we will need to retrieve the API from LimaCharlie, which inside of LimaCharlie can be found in Access Management > REST API > and its the Org JWT we want. Then, we want to create a new, custom credential in Tines. That can be done by clicking "Personal" at the top left of Tines, then click "Credentials". From here, just click "New Credential", name it LimaCharlie, and paste in the Org JWT in the "Value" Section and under domains, we want it to be "*.limacharlie.io" and save it. Back to the Tines story, if you click on a blank space within the story, click connect next to the credential we just created
+
+
+
+
+
+
 
 
 
