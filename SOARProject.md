@@ -66,3 +66,11 @@ Now lets use that same command we used above to generate another detection to se
 ![Branching](TinesStory1.png)
 
 We have now successfully linked LimaCharlie to our Tines story!
+
+## Tines Final Look
+
+Below is the complete story on Tines. I will break it down section by section:
+
+![Branching](Final.png)
+
+### Send Email
